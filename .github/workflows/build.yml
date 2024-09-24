@@ -32,7 +32,7 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args:
-          -Dsonar.projectKey=lab-3-aCloverophile
+          -Dsonar.projectKey=bhos-qa_lab-3-aCloverophile
           -Dsonar.organization=bhos-qa
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.token=abee2460dbc93000daafd4daeb86a9404942467c
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
