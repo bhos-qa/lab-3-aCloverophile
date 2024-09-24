@@ -31,8 +31,10 @@ jobs:
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       with:
-        args: 
+        args:
           -Dsonar.projectKey=lab-3-aCloverophile
           -Dsonar.organization=bhos-qa
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+      env:
+        SONAR_TOKEN = ${{ secrets.SONAR_TOKEN }}
