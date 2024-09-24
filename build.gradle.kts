@@ -4,7 +4,7 @@ plugins {
     id("jacoco")
 }
 
-sonarqube {
+sonar {
     properties {
         property("sonar.projectKey", "bhos-qa_lab-3-aCloverophile")
         property("sonar.organization", "bhos-qa")
