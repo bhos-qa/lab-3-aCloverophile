@@ -33,5 +33,6 @@ jobs:
             -Dsonar.projectKey=bhos-qa_lab-3-aCloverophile
             -Dsonar.organization=bhos-qa
             -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.java.binaries=build/classes/java/main
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
