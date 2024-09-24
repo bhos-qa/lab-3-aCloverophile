@@ -3,7 +3,7 @@ name: CI Pipeline | by aCloverophile
 on:
   push:
     branches:
-      - feature/*
+      - feature/lab3
   pull_request:
     branches:
       - develop
