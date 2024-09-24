@@ -35,6 +35,4 @@ jobs:
           -Dsonar.projectKey=lab-3-aCloverophile
           -Dsonar.organization=bhos-qa
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-      env:
-        SONAR_TOKEN = ${{ secrets.SONAR_TOKEN }}
+          -Dsonar.token=${{ secrets.SECRET_TOKEN }}
