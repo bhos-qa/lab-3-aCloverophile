@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PermissionManagerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-24T06:35:05" hostname="CLOVEROPHILE" time="0.06">
+  <properties/>
+  <testcase name="testSetCurrentLevel()" classname="PermissionManagerTest" time="0.053"/>
+  <testcase name="testGetRoleName()" classname="PermissionManagerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
