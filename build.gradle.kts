@@ -9,6 +9,7 @@ sonar {
         property("sonar.projectKey", "bhos-qa_lab-3-aCloverophile")
         property("sonar.organization", "bhos-qa")
         property("sonar.host.url", "https://sonarcloud.io")
+        property("sonar.token","286dd5a738e9f0a35beb833bb77fe8d596582d61")
     }
 }
 
